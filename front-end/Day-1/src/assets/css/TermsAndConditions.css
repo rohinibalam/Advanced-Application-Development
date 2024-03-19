@@ -1,0 +1,66 @@
+.termsandconditions-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  flex: 0 0 auto;
+  width: 71%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+  margin-right: 500px;
+  margin-left: 277px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.termsandconditions {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  text-align: left;
+  font-size: 15px;
+}
+
+.termsandconditions-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #eb1e79;
+  font-weight: 700;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.termsandconditions-section {
+  margin-bottom: 30px;
+}
+/* CSS */
+.terms-bullets {
+  padding-left: 20px; /* Add some left padding to create space for the bullets */
+}
+
+.terms-bullets p {
+  margin: 0; /* Remove default paragraph margins */
+}
+
+.terms-bullets p::before {
+  content: "•"; /* Use a bullet point character as content */
+  margin-right: 10px; /* Adjust the space between the bullet point and the text */
+}
+
+.termsandconditions-subheading {
+  font-weight: 700;
+  margin-bottom: 10px;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.termsandconditions p {
+  line-height: 1.5;
+}
+
+.termsandconditions-subheading {
+  color: #eb1e79;
+}
